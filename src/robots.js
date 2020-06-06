@@ -36,21 +36,27 @@ export const robots = [
         email: 'robbie@universalrobots.tech'
     },
     {
-        id: 8,
+        id: 7,
         name: "Richard Daniel",
         username: 'NotToday',
         email: 'richard@universalrobots.tech'
     },
     {
-        id: 9,
+        id: 8,
         name: "Marvin the Paranoid Android",
         username: 'OhDear',
         email: 'marvin@universalrobots.tech'
     },
     {
-        id: 10,
+        id: 9,
         name: "Bender",
         username: 'KillAllHumans',
         email: 'bender@universalrobots.tech'
+    },
+    {
+        id: 10,
+        name: "Sonny",
+        username: 'IRobot3',
+        email: 'sonny@universalrobots.tech'
     }
 ];

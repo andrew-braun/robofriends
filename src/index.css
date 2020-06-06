@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    hsla(251, 83%, 41%, 0.8),
+    hsla(251, 86%, 61%, 0.5)
+  )
+}
+
+.search-box-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  width: 50%;
+  padding: 0.5rem;
+  border: none;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  color: white;
+  opacity: 0.8;
+  border-radius: 0.5rem;
+}
