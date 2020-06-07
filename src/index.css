@@ -37,3 +37,7 @@ code {
   opacity: 0.8;
   border-radius: 0.5rem;
 }
+
+.search-box:hover, .search-box:active {
+  opacity: 1;
+}

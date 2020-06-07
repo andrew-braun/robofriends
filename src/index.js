@@ -1,16 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import * as serviceWorker from "./serviceWorker";
 import "./index.css";
 import "./card.css";
-import CardList from "./CardList.js";
-import * as serviceWorker from "./serviceWorker";
 import "tachyons";
-import { robots } from "./robots";
 import App from "./App.js";
 
 ReactDOM.render(
   <React.StrictMode>
-      <App />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
