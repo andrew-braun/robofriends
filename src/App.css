@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: local('MADE Evolve Sans EVO Bold'), local('MADEEvolveSansEVO-Bold'),
+        url('./fonts/MADEEvolveSansEVO-Bold.woff2') format('woff2'),
+        url('./fonts/MADEEvolveSansEVO-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: local('MADE Evolve Sans EVO'), local('MADEEvolveSansEVO'),
+        url('/fonts/MADEEvolveSansEVO.woff2') format('woff2'),
+        url('/fonts/MADEEvolveSansEVO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: local('MADE Evolve Sans EVO Thin'), local('MADEEvolveSansEVO-Thin'),
+        url('/fonts/MADEEvolveSansEVO-Thin.woff2') format('woff2'),
+        url('/fonts/MADEEvolveSansEVO-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: local('MADE Evolve Sans EVO Light'), local('MADEEvolveSansEVO-Light'),
+        url('/fonts/MADEEvolveSansEVO-Light.woff2') format('woff2'),
+        url('/fonts/MADEEvolveSansEVO-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: local('MADE Evolve Sans EVO Medium'), local('MADEEvolveSansEVO-Medium'),
+        url('/fonts/MADEEvolveSansEVO-Medium.woff2') format('woff2'),
+        url('/fonts/MADEEvolveSansEVO-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
