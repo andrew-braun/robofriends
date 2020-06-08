@@ -9,3 +9,11 @@
 
     opacity: 0.9;
 }
+
+.card-username {
+    color: black;
+    background: inherit;
+    -webkit-background-clip: border-box;
+    -webkit-text-fill-color: inherit;
+}
+
