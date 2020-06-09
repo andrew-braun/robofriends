@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import CardList from "./CardList";
 import SearchBox from "./SearchBox";
+import Scroll from './Scroll'
 // import { robots } from "./robots";
 
 class App extends Component {
@@ -27,14 +28,16 @@ componentDidMount() {
       return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
     })
     if (this.state.robots.length === 0) {
-      return(<h1>Loading</h1>)
+      return(<h1 className="tc">Loading</h1>)
     } else {
     return (
       <React.Fragment>
         <main className="card-container">
           <h1 className="tc w-100">RoboFriends</h1>
           <SearchBox searchChange={this.onSearchChange} />
-          <CardList robots={filteredRobots} />
+          <Scroll>
+            <CardList robots={filteredRobots} />
+          </Scroll>
         </main>
       </React.Fragment>
     );
