@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import * as serviceWorker from "./serviceWorker";
 import "./index.css";
-import "./card.css";
-import "./App.css";
+import "./components/card.css";
+import "./containers/App.css";
 import "tachyons";
-import App from "./App.js";
+import App from "./containers/App.js";
 
 ReactDOM.render(
   <React.StrictMode>
